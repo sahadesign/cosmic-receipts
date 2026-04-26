@@ -1,4 +1,4 @@
-☄️ Cosmic Receipts
+☄️ Cosmic Receipts [WIP]
 **An Autonomous Agentic Orchestrator for Multi-Source Space & Literary Synthesis.**
 
 `Cosmic Receipts` is a stateful AI agent built with **LangGraph** that bridges the gap between high-fidelity NASA technical data and cultural literary archives. By leveraging **Retrieval-Augmented Generation (RAG)** and **Vector Embeddings**, it identifies the "vibe" of specific space events by cross-referencing real-time telemetry with a localized semantic memory of 20th-century literature.
