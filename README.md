@@ -1,9 +1,8 @@
-☄️ Cosmic Receipts [WIP]
+# ☄️ Cosmic Receipts [WIP]
+
 **An Autonomous Agentic Orchestrator for Multi-Source Space & Literary Synthesis.**
 
 `Cosmic Receipts` is a stateful AI agent built with **LangGraph** that bridges the gap between high-fidelity NASA technical data and cultural literary archives. By leveraging **Retrieval-Augmented Generation (RAG)** and **Vector Embeddings**, it identifies the "vibe" of specific space events by cross-referencing real-time telemetry with a localized semantic memory of 20th-century literature.
-
----
 
 ## Architecture & Flow
 The system utilizes a **Directed Acyclic Graph (DAG)** to manage state transitions between specialized nodes. This ensures data integrity and allows for complex reasoning loops.
@@ -21,7 +20,6 @@ The system utilizes a **Directed Acyclic Graph (DAG)** to manage state transitio
 * **Vector Database:** [ChromaDB](https://www.trychroma.com/) (Local Semantic Storage)
 * **Embeddings:** `sentence-transformers/all-MiniLM-L6-v2` (Local execution)
 * **Data Sources:** [NASA API](https://api.nasa.gov/) (APOD, Image & Video Library)
-* **UI/CLI:** [Rich](https://github.com/Textualize/rich) (Formatted Terminal Rendering)
 
 ## Key Engineering Features
 * **Idempotent Memory Seeding:** The Vector DB initialization includes a collision-check to prevent duplicate data ingestion across multiple runs.
