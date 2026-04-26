@@ -23,7 +23,7 @@ The system utilizes a **Directed Acyclic Graph (DAG)** to manage state transitio
 * **Data Sources:** [NASA API](https://api.nasa.gov/) (APOD, Image & Video Library)
 * **UI/CLI:** [Rich](https://github.com/Textualize/rich) (Formatted Terminal Rendering)
 
-## 💡 Key Engineering Features
+## Key Engineering Features
 * **Idempotent Memory Seeding:** The Vector DB initialization includes a collision-check to prevent duplicate data ingestion across multiple runs.
 * **State Persistence:** Implemented `MemorySaver` checkpointer for thread-safe conversation history and multi-turn interaction.
 * **Semantic RAG:** Moves beyond keyword matching to identify cultural context (e.g., matching the 1977 Voyager launch to the existential themes of *Lucifer's Hammer*).
